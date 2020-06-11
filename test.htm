@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="0" align="center" width="50%">
+        <thead>
+            <tr>
+                <th align="left" width="50%">
+                    Pay Slip Details
+                </th>
+                <th align="right" width="50%">Amount in USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Payments</td>
+                <td align="right">"""+str(data['payment'])+"""</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td align="right">"""+str(data['tax'])+"""</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td align="right">"""+str(data['total'])+"""</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
