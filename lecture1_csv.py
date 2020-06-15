@@ -47,6 +47,8 @@ def csv_dialect(filePath):
         reader = csv.DictReader(f, dialect='pipes')
         return list(reader)
 
+# 캘리포니아에 있는 직원들만 추출해서 새로운 파일 생성
+
 
 def manage_ca_employess(filePathOpened, filePathWritten):
     fr = open(filePathOpened, 'rt')
